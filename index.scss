@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+p {
+    color: rgb(207, 207, 207);
+    line-height: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    input,
+    label {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+
+        li {
+            list-style: none;
+            margin-right: 30px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+
+            }
+        }
+    }
+
+    .name {
+        color: white;
+
+        .rang {
+            color: aqua;
+        }
+    }
+
+    span {
+        color: orangered;
+    }
+}
+
+.main {
+    a:hover {
+        color: orangered;
+    }
+
+    label {
+        color: white;
+        font-size: 30px;
+    }
+
+
+}
+
+// about1
+.about1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    .imgm1 {
+        width: 50%;
+        border-radius: 50%;
+        margin-bottom: 100px;
+        border: 10px solid rgb(255, 0, 0);
+        box-shadow: 5px 5px 20px 7px orangered;
+        margin-top: 100px;
+    }
+
+    .imgm1 img {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    @media screen and (max-width:576px) {
+        max-width: 540px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+
+    }
+
+    .info {
+        margin-top: 100px;
+    }
+}
+
+.info h1 {
+    text-transform: uppercase;
+    margin-right: 100px;
+}
+
+span {
+    color: orangered;
+    font-size: 50px;
+}
+
+.info h2 {
+    color: white;
+    text-transform: uppercase;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+
+.info button {
+    padding: 10px 70px;
+    border-radius: 10px;
+    font-size: 22px;
+    margin-left: 280px;
+    background-color: orangered;
+    box-shadow: 5px 5px 20px 7px orangered;
+    border: 1px solid transparent;
+    color: white;
+
+    &:hover {
+        background-color: white;
+        box-shadow: 5px 5px 20px 7px white;
+        border: 1px solid transparent;
+        color: orangered;
+    }
+
+
+
+
+
+
+}
+
+
+/*About*/
+.about {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    @media screen and (max-width:768px) {
+        width: 100%;
+    }
+
+    .imgm {
+        border-radius: 20%;
+    }
+    
+    .imgm img {
+        width: 80%;
+        border-radius: 50%;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        border: 10px solid white;
+        box-shadow: 5px 5px 20px 7px orangered;
+    
+    }
+    
+    .me {
+        text-align: center;
+    }
+    
+    .me h1 {
+        text-transform: uppercase;
+        color: white;
+    }
+
+    
+    .two {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .box {
+            text-align: center;
+
+            img {
+                border: 5px solid black;
+                width: 80%;
+                height: 100%;
+                margin-top: 0px;
+                margin-bottom: 20px;
+                border-radius: 20px;
+                box-shadow: 5px 5px 20px 7px orangered;
+            }
+            h1 {
+                text-transform: uppercase;
+            }
+
+            p {
+                text-transform: uppercase;
+            }
+          
+        }
+    }
+    .links {
+        width: 85%;
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+
+        ul {
+            display: flex;
+        }
+
+        li {
+            margin: 20px;
+            text-align: center;
+            list-style: none;
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
+
+// Contact
+
+.number {
+    width: 500px;
+    height: 100px;
+    margin: 200px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+    i {
+        color: orangered;
+        font-size: 40px;
+    }
+}
+
+// portfolio
